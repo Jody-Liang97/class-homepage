@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "badge": "拾光 · 计科三班",
+    "eyebrow": "2025级 · 计算机科学与技术",
+    "title": "从五湖四海来，",
+    "accent": "到浩瀚星河去。",
+    "lead": "关于一个班级，最动人的也许不是发生过多少大事，而是许多个普通的日子，因为彼此在场，渐渐有了共同的名字。"
+  },
+  "metrics": {
+    "classStartedAt": "2025-09-01",
+    "hearts": 58
+  },
+  "chapters": [
+    {
+      "id": "meet",
+      "number": "01",
+      "kicker": "THE FIRST HELLO",
+      "title": "初见",
+      "summary": "起初，只是同一张名单上的名字。",
+      "detail": "我们保留一点生疏，也对接下来会认识怎样的人抱着好奇。故事从这里开始，不急着替它写好答案。",
+      "tone": "violet"
+    },
+    {
+      "id": "closer",
+      "number": "02",
+      "kicker": "A LITTLE CLOSER",
+      "title": "靠近",
+      "summary": "从点头问好，到愿意为彼此多停留一会儿。",
+      "detail": "关系不一定被某个盛大的时刻改变。一次回应、一句提醒、一次顺手的帮助，也会让熟悉慢慢有了轮廓。",
+      "tone": "orange"
+    },
+    {
+      "id": "together",
+      "number": "03",
+      "kicker": "SIDE BY SIDE",
+      "title": "并肩",
+      "summary": "不一定总有热闹的活动，但需要的时候，知道身边有人。",
+      "detail": "同行不意味着时刻热闹。各自认真生活，也愿意分享、回应，在需要的时候向彼此靠近，就是很珍贵的班级温度。",
+      "tone": "mint"
+    },
+    {
+      "id": "forward",
+      "number": "04",
+      "kicker": "STILL GROWING",
+      "title": "向前",
+      "summary": "各自走向不同方向，也带着同一段共同来处。",
+      "detail": "前面会有新的课题、新的方向和新的生活。愿每个人都能走向喜欢的地方，也始终记得，我们曾经一起出发。",
+      "tone": "rose"
+    }
+  ],
+  "gallery": [
+    {
+      "id": "together-frame",
+      "src": "/images/memories/military/opening-ceremony.jpg",
+      "alt": "开学典礼班级集体合影",
+      "label": "同框",
+      "objectPosition": "center 54%"
+    },
+    {
+      "id": "closer-frame",
+      "src": "/images/memories/library-tour/library.jpg",
+      "alt": "图书馆内的班级集体合影",
+      "label": "靠近",
+      "objectPosition": "center 48%"
+    },
+    {
+      "id": "smile-frame",
+      "src": "/images/memories/psychology-day/group-photo.jpg",
+      "alt": "同学们轻松合影的画面",
+      "label": "笑意",
+      "objectPosition": "center 42%"
+    },
+    {
+      "id": "hands-frame",
+      "src": "/images/memories/new-year/dumpling-table.jpg",
+      "alt": "同学们围在桌边一起包饺子",
+      "label": "一起动手",
+      "objectPosition": "center 48%"
+    }
+  ],
+  "wishes": [
+    {
+      "id": "seen",
+      "number": "01",
+      "title": "愿每个人都能被看见。",
+      "body": "不必成为最响亮的声音，也能在这个集体里拥有自己的位置。",
+      "tone": "violet"
+    },
+    {
+      "id": "share",
+      "number": "02",
+      "title": "愿分享让彼此走得更远。",
+      "body": "把自己找到的答案留下一点，让后来的人少走一点弯路。",
+      "tone": "mint"
+    },
+    {
+      "id": "shine",
+      "number": "03",
+      "title": "愿各自闪光，也彼此照亮。",
+      "body": "尊重不同的方向，也为身边每一份认真与热爱真心鼓掌。",
+      "tone": "orange"
+    },
+    {
+      "id": "remember",
+      "number": "04",
+      "title": "愿多年以后，仍记得这一段同行。",
+      "body": "记得我们曾在同一段青春里相遇，也曾共同拥有一个名字。",
+      "tone": "rose"
+    }
+  ],
+  "siteNote": {
+    "eyebrow": "ABOUT THIS SPACE",
+    "title": "关于这个小站",
+    "summary": "这里用来收好班级需要的信息，也珍藏愿意被记住的片刻。所有内容遵循来源可溯、授权清晰与隐私优先的原则。",
+    "items": [
+      {
+        "title": "隐私优先",
+        "text": "不公开敏感个人信息；照片上线前确认展示意愿，并保留撤下渠道。"
+      },
+      {
+        "title": "尊重来源",
+        "text": "学习资料保留来源与使用说明，未经许可的内容不进入公开页面。"
+      }
+    ]
+  }
+}

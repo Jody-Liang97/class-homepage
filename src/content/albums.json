@@ -1,0 +1,206 @@
+[
+  {
+    "id": "military-training-2025",
+    "title": "开学典礼与军训教官话别",
+    "semester": "2025-2026 秋季学期",
+    "date": "2025-09-12",
+    "location": "校区礼堂 / 军训场地",
+    "description": "初秋的迷彩记忆，开学典礼的全班集体同框与送别教官的专属纪念蛋糕。",
+    "cover": "/images/memories/military/opening-ceremony.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/military/opening-ceremony.jpg",
+        "thumbnail": "/images/memories/military/opening-ceremony.jpg",
+        "alt": "开学典礼全班大合照",
+        "caption": "开学典礼大合照"
+      },
+      {
+        "src": "/images/memories/military/instructor-meeting.jpg",
+        "thumbnail": "/images/memories/military/instructor-meeting.jpg",
+        "alt": "教官送别主题班会",
+        "caption": "教官送别班会"
+      },
+      {
+        "src": "/images/memories/military/cake-overview.jpg",
+        "thumbnail": "/images/memories/military/cake-overview.jpg",
+        "alt": "送给军训教官的纪念蛋糕",
+        "caption": "送别教官专属蛋糕"
+      },
+      {
+        "src": "/images/memories/military/cake-detail-1.jpg",
+        "thumbnail": "/images/memories/military/cake-detail-1.jpg",
+        "alt": "教官蛋糕细节特写",
+        "caption": "蛋糕细节特写"
+      },
+      {
+        "src": "/images/memories/military/cake-detail-2.jpg",
+        "thumbnail": "/images/memories/military/cake-detail-2.jpg",
+        "alt": "教官蛋糕图案特写",
+        "caption": "纪念蛋糕特写"
+      }
+    ]
+  },
+  {
+    "id": "library-tour-2025",
+    "title": "图书馆瀚海漫游与新学期启航",
+    "semester": "2025-2026 秋季学期",
+    "date": "2025-09-21",
+    "location": "东区图书馆 / 教室",
+    "description": "步入瀚海书林开启大学篇章，聆听曹老师主持班会明确前行方向。",
+    "cover": "/images/memories/library-tour/library.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/library-tour/library.jpg",
+        "thumbnail": "/images/memories/library-tour/library.jpg",
+        "alt": "图书馆瀚海漫游集体大合照",
+        "caption": "图书馆“瀚海漫游”合影"
+      },
+      {
+        "src": "/images/memories/library-tour/flower.jpg",
+        "thumbnail": "/images/memories/library-tour/flower.jpg",
+        "alt": "教师节送给曹老师的花束",
+        "caption": "教师节感恩花束"
+      },
+      {
+        "src": "/images/memories/library-tour/meeting-host.jpg",
+        "thumbnail": "/images/memories/library-tour/meeting-host.jpg",
+        "alt": "曹老师主持班级会议",
+        "caption": "曹老师主持班会"
+      },
+      {
+        "src": "/images/memories/library-tour/meeting-speech.jpg",
+        "thumbnail": "/images/memories/library-tour/meeting-speech.jpg",
+        "alt": "班级会议讲话现场",
+        "caption": "班会交流与规划"
+      }
+    ]
+  },
+  {
+    "id": "autumn-party-2025",
+    "title": "金秋十月·班级联欢晚会",
+    "semester": "2025-2026 秋季学期",
+    "date": "2025-10-18",
+    "location": "学生活动中心",
+    "description": "舞台上的才艺绽放，金秋夜晚里属于我们班的欢聚掌声。",
+    "cover": "/images/memories/autumn-party/stage-performance.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/autumn-party/stage-performance.jpg",
+        "thumbnail": "/images/memories/autumn-party/stage-performance.jpg",
+        "alt": "十月班级晚会舞台合影",
+        "caption": "金秋十月班级晚会"
+      }
+    ]
+  },
+  {
+    "id": "psychology-day-2025",
+    "title": "冬日心理团日：观影与草坪露营烧烤",
+    "semester": "2025-2026 秋季学期",
+    "date": "2025-12-07",
+    "location": "校内草坪 / 多媒体教室",
+    "description": "舒缓学业压力，围坐品味温情电影，在冬日草坪炭火与烤肉香气中畅聊青春。",
+    "cover": "/images/memories/psychology-day/group-photo.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/psychology-day/group-photo.jpg",
+        "thumbnail": "/images/memories/psychology-day/group-photo.jpg",
+        "alt": "心理团日活动草坪集体大合影",
+        "caption": "心理团日活动集体大合影"
+      },
+      {
+        "src": "/images/memories/psychology-day/movie.jpg",
+        "thumbnail": "/images/memories/psychology-day/movie.jpg",
+        "alt": "心理团日活动集体观影",
+        "caption": "集体温情观影"
+      },
+      {
+        "src": "/images/memories/psychology-day/bbq-prep.jpg",
+        "thumbnail": "/images/memories/psychology-day/bbq-prep.jpg",
+        "alt": "草坪烧烤准备工作",
+        "caption": "生火与烧烤准备"
+      },
+      {
+        "src": "/images/memories/psychology-day/bbq-grill.jpg",
+        "thumbnail": "/images/memories/psychology-day/bbq-grill.jpg",
+        "alt": "烤网上的美味烤肉",
+        "caption": "炭火烤肉时刻"
+      },
+      {
+        "src": "/images/memories/psychology-day/bbq-gathering-1.jpg",
+        "thumbnail": "/images/memories/psychology-day/bbq-gathering-1.jpg",
+        "alt": "同学们围坐烧烤畅聊瞬间",
+        "caption": "围坐烧烤欢声笑语"
+      },
+      {
+        "src": "/images/memories/psychology-day/bbq-gathering-2.jpg",
+        "thumbnail": "/images/memories/psychology-day/bbq-gathering-2.jpg",
+        "alt": "草坪烧烤快乐氛围",
+        "caption": "冬日暖阳烧烤时光"
+      }
+    ]
+  },
+  {
+    "id": "birthday-gathering-2025",
+    "title": "温暖同心·班级庆生时刻",
+    "semester": "2025-2026 秋季学期",
+    "date": "2025-12-12",
+    "location": "班级教室",
+    "description": "烛光与笑脸相伴，班级为宋谦同学送上最真挚温暖的生日祝福。",
+    "cover": "/images/memories/birthday/song-birthday-1.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/birthday/song-birthday-1.jpg",
+        "thumbnail": "/images/memories/birthday/song-birthday-1.jpg",
+        "alt": "为宋谦同学庆生现场合照",
+        "caption": "生日合影祝福"
+      },
+      {
+        "src": "/images/memories/birthday/song-birthday-2.jpg",
+        "thumbnail": "/images/memories/birthday/song-birthday-2.jpg",
+        "alt": "宋谦同学切生日蛋糕",
+        "caption": "吹蜡烛切蛋糕瞬间"
+      }
+    ]
+  },
+  {
+    "id": "new-year-dumplings-2026",
+    "title": "迎新年·元旦跨年包饺子",
+    "semester": "2025-2026 秋季学期",
+    "date": "2026-01-01",
+    "location": "学生食堂",
+    "description": "擀皮拌馅其乐融融，热气腾腾的饺子里满载着新一年的期待与暖意。",
+    "cover": "/images/memories/new-year/dumpling-table.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/new-year/dumpling-table.jpg",
+        "thumbnail": "/images/memories/new-year/dumpling-table.jpg",
+        "alt": "全班齐聚食堂包饺子大合照",
+        "caption": "全员包饺子大合照"
+      },
+      {
+        "src": "/images/memories/new-year/dumpling-filling.jpg",
+        "thumbnail": "/images/memories/new-year/dumpling-filling.jpg",
+        "alt": "精心调配的鲜美饺子馅",
+        "caption": "准备美味饺子馅"
+      },
+      {
+        "src": "/images/memories/new-year/making-dumplings-1.jpg",
+        "thumbnail": "/images/memories/new-year/making-dumplings-1.jpg",
+        "alt": "同学们动手擀皮包饺子花絮1",
+        "caption": "包饺子花絮 · 擀皮捏褶"
+      },
+      {
+        "src": "/images/memories/new-year/making-dumplings-2.jpg",
+        "thumbnail": "/images/memories/new-year/making-dumplings-2.jpg",
+        "alt": "同学们动手擀皮包饺子花絮2",
+        "caption": "包饺子花絮 · 巧手包制"
+      },
+      {
+        "src": "/images/memories/new-year/making-dumplings-3.jpg",
+        "thumbnail": "/images/memories/new-year/making-dumplings-3.jpg",
+        "alt": "排满托盘的元宝饺子成果",
+        "caption": "热气腾腾的劳动成果"
+      }
+    ]
+  }
+]

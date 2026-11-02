@@ -1,0 +1,33 @@
+[
+  {
+    "id": "november-class-meeting",
+    "title": "十一月主题班会",
+    "type": "league-class",
+    "summary": "十一月班级月度常规班会，具体时间地点待定。下面的时间仅供参考。",
+    "details": "主要议程包括近期学风建设、复习备考资料平台及团课学习。具体时间教室确定后另行通知。",
+    "startAt": "2026-11-17T19:30:00+08:00",
+    "endAt": "2026-11-17T20:30:00+08:00",
+    "location": "待定"
+  },
+  {
+    "id": "november-class-activity",
+    "title": "十一月主题团日活动",
+    "type": "league-activity",
+    "summary": "十一月班级团日活动，具体时间地点待定。下面的时间仅供参考。希望大家积极参与！",
+    "details": "具体内容、时间等相关信息确定后另行通知。班委们在努力 brainstorming 了",
+    "startAt": "2026-11-17T19:30:00+08:00",
+    "endAt": "2026-11-17T20:30:00+08:00",
+    "location": "待定"
+  },
+  {
+    "id": "october-league-class",
+    "title": "十月主题班会",
+    "type": "league-class",
+    "summary": "十月班级月度常规班会",
+    "details": "活动已结束。",
+    "startAt": "2026-10-27T19:30:00+08:00",
+    "endAt": "2026-10-27T21:30:00+08:00",
+    "location": "2103"
+  }
+]
+

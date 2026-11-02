@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.local
+
+# 内部设计与维护文档（不公开到 GitHub）
+设计想法.txt
+班级主页实施计划.md
+班级主页内容维护硬性规定与避坑指南.md

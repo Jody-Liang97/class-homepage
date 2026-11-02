@@ -1,0 +1,82 @@
+[
+  {
+    "id": "linear-algebra",
+    "name": "线性代数",
+    "description": "行列式计算、矩阵变换、特征值对角化与二次型解题方法总结。",
+    "icon": "∑",
+    "accent": "blue",
+    "order": 1
+  },
+  {
+    "id": "mathematical-analysis",
+    "name": "数学分析",
+    "description": "极限论、微分中值定理、不定积分与多重积分计算及严谨证明体系。",
+    "icon": "∫",
+    "accent": "mint",
+    "order": 2
+  },
+  {
+    "id": "data-structures",
+    "name": "数据结构",
+    "description": "线性表、树与二叉树、KMP 算法、回溯思想与实战代码总结。",
+    "icon": "⌥",
+    "accent": "orange",
+    "order": 3
+  },
+  {
+    "id": "algebraic-structures",
+    "name": "代数结构",
+    "description": "初等数论、群环域、同余方程与代数系统核心定理。",
+    "icon": "⊛",
+    "accent": "violet",
+    "order": 4
+  },
+  {
+    "id": "mechanics",
+    "name": "力学与热学",
+    "description": "力学与热学课程资料。",
+    "icon": "◎",
+    "accent": "blue",
+    "order": 5
+  },
+  {
+    "id": "graph-theory",
+    "name": "图论",
+    "description": "图论课程资料。",
+    "icon": "⌁",
+    "accent": "violet",
+    "order": 6
+  },
+  {
+    "id": "digital-circuits-a",
+    "name": "模拟与数字电路A",
+    "description": "模拟与数字电路A课程资料。",
+    "icon": "◫",
+    "accent": "orange",
+    "order": 7
+  },
+  {
+    "id": "electromagnetism-c",
+    "name": "电磁学C",
+    "description": "电磁学C课程资料。",
+    "icon": "◎",
+    "accent": "mint",
+    "order": 8
+  },
+  {
+    "id": "ics",
+    "name": "ICS",
+    "description": "计算机系统概论课程资料。",
+    "icon": "⌘",
+    "accent": "blue",
+    "order": 9
+  },
+  {
+    "id": "complex-analysis",
+    "name": "复变函数B",
+    "description": "复变函数B课程资料。",
+    "icon": "◫",
+    "accent": "violet",
+    "order": 10
+  }
+]
