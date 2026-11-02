@@ -202,5 +202,28 @@
         "caption": "热气腾腾的劳动成果"
       }
     ]
+  },
+  {
+    "id": "league-class",
+    "title": "强国有我·团课理论共学习",
+    "semester": "2026-2027 秋季学期",
+    "date": "2026-09-01",
+    "location": "教室",
+    "description": "胸怀理想、志存高远，厚植家国情怀，争做新时代好青年。",
+    "cover": "/images/memories/league-class/lc-2026_10_27-1.jpg",
+    "photos": [
+      {
+        "src": "/images/memories/league-class/lc-2026_10_27-1.jpg",
+        "thumbnail": "/images/memories/league-class/lc-2026_10_27-1.jpg",
+        "alt": "2026年10月27日团课学习",
+        "caption": "26.10.27 团课学习"
+      },
+      {
+        "src": "/images/memories/league-class/lc-2026_10_27-2.jpg",
+        "thumbnail": "/images/memories/league-class/lc-2026_10_27-2.jpg",
+        "alt": "2026年10月27日团课学习",
+        "caption": "26.10.27 团课学习"
+      }
+    ]
   }
 ]
