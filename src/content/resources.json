@@ -1,5 +1,44 @@
 [
   {
+    "id": "gt-exam-papers",
+    "title": "图论：往年题汇总",
+    "category": "course",
+    "courseId": "graph-theory",
+    "subject": "图论",
+    "fileType": "PDF",
+    "downloadUrl": "/files/resources/graph-theory/gt-exam-papers.pdf",
+    "source": "作者：梁九畦",
+    "updatedAt": "2026-11-02",
+    "description": "图论往年题，来自评课社区。",
+    "tags": ["图论", "往年题", "评课社区"]
+  },
+  {
+    "id": "ics-all-relative-resource",
+    "title": "ICS：各种资料汇总",
+    "category": "course",
+    "courseId": "ics",
+    "subject": "ICS",
+    "fileType": "zip",
+    "downloadUrl": "https://pan.ustc.edu.cn/share/index/0423178da32b4a38bc1e",
+    "source": "作者：曲培鑫",
+    "updatedAt": "2026-11-02",
+    "description": "ICS 课程全面的资料，来自科大云盘。",
+    "tags": ["ICS", "全资料", "科大云盘"]
+  },
+  {
+    "id": "emc-ch2-summary",
+    "title": "电磁学C：第二章总结",
+    "category": "course",
+    "courseId": "electromagnetism-c",
+    "subject": "电磁学C",
+    "fileType": "PDF",
+    "downloadUrl": "/files/resources/electromagnetism-c/emc-ch2-summary.pdf",
+    "source": "作者：梁九畦",
+    "updatedAt": "2026-11-02",
+    "description": "电磁学C第二章核心公式整理、应用与典型例题总结，完全参考老师上课的 PPT。",
+    "tags": ["电磁学C", "第二章", "PPT重点总结"]
+  },
+  {
     "id": "dca-exam-papers",
     "title": "模数：往年真题",
     "category": "course",
