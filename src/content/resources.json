@@ -1,5 +1,31 @@
 [
   {
+    "id": "dca-21-mid-exam-fix",
+    "title": "模数：期中考试题目修复",
+    "category": "course",
+    "courseId": "digital-circuits-a",
+    "subject": "模拟与数字电路A",
+    "fileType": "PDF",
+    "downloadUrl": "/files/resources/digital-circuits-a/dca-21-mid-exam-fix.pdf",
+    "source": "作者：宋谦",
+    "updatedAt": "2026-11-03",
+    "description": "模数期中考卷修复版。",
+    "tags": ["模拟与数字电路A", "往年题", "期中"]
+  },
+  {
+    "id": "dca-21-mid-exam-answers",
+    "title": "模数：期中考试题目配套答案",
+    "category": "course",
+    "courseId": "digital-circuits-a",
+    "subject": "模拟与数字电路A",
+    "fileType": "PDF",
+    "downloadUrl": "/files/resources/digital-circuits-a/dca-21-mid-exam-answers.pdf",
+    "source": "作者：宋谦",
+    "updatedAt": "2026-11-03",
+    "description": "“模数期中考卷修复版”的配套答案。",
+    "tags": ["模拟与数字电路A", "往年题", "期中","答案"]
+  },
+  {
     "id": "gt-exam-papers",
     "title": "图论：往年题汇总",
     "category": "course",
