@@ -31,26 +31,39 @@ export function filterResources(resources: Resource[], filters: ResourceFilters)
   })
 }
 
+export function parseDate(value: string): Date {
+  let date = new Date(value)
+  if (isNaN(date.getTime())) {
+    const normalized = value.replace(/^(\d{4})-(\d{1,2})-(\d{1,2})/, (_, y, m, d) => `${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`)
+    date = new Date(normalized)
+  }
+  return date
+}
+
 export function getAffairStatus(affair: ClassAffair, now = new Date()): AffairStatus {
-  const start = new Date(affair.startAt)
-  const end = new Date(affair.endAt ?? affair.deadline ?? affair.startAt)
+  const start = parseDate(affair.startAt)
+  const end = parseDate(affair.endAt ?? affair.deadline ?? affair.startAt)
+  if (isNaN(start.getTime())) return 'upcoming'
   if (now < start) return 'upcoming'
-  if (now <= end) return 'active'
+  if (isNaN(end.getTime()) || now <= end) return 'active'
   return 'ended'
 }
 
 export function formatDate(value: string, includeTime = false): string {
+  const date = parseDate(value)
+  if (isNaN(date.getTime())) return value
   return new Intl.DateTimeFormat('zh-CN', {
     timeZone: 'Asia/Shanghai',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
     ...(includeTime ? { hour: '2-digit', minute: '2-digit', hour12: false } : {}),
-  }).format(new Date(value))
+  }).format(date)
 }
 
 export function formatShortDate(value: string): { month: string; day: string } {
-  const date = new Date(value)
+  const date = parseDate(value)
+  if (isNaN(date.getTime())) return { month: '--', day: '--' }
   return {
     month: new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', month: 'short' }).format(date),
     day: new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', day: '2-digit' }).format(date),

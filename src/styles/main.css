@@ -303,7 +303,7 @@ body.modal-open .back-to-top { opacity: 0; visibility: hidden; pointer-events: n
 .affair-fact dt > span { display: none; }
 .affair-fact dd { overflow-wrap: anywhere; }
 .affair-details { margin-top: 15px; padding: 14px; border-radius: 13px; background: #f4f1ee; }
-.affair-details p { margin: 0 0 12px; color: #5f5b66; font-size: 13px; line-height: 1.7; }
+.affair-details p { margin: 0 0 12px; color: #5f5b66; font-size: 13px; line-height: 1.7; white-space: pre-line; }
 .detail-toggle { margin-top: 12px; padding: 0; border: 0; background: transparent; color: var(--primary-dark); font-size: 11px; font-weight: 800; cursor: pointer; }
 
 .memory-collage { display: grid; grid-template-columns: 1.1fr .9fr .82fr; grid-template-rows: 240px 190px; gap: 15px; }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { filterResources, getAffairStatus, getRoundedDownDaysSince, resolveUrl } from './content'
+import { filterResources, formatDate, formatShortDate, getAffairStatus, getRoundedDownDaysSince, parseDate, resolveUrl } from './content'
 import type { ClassAffair, Resource } from '../types/content'
 
 const resource: Resource = {
@@ -49,6 +49,12 @@ describe('content helpers', () => {
     expect(resolveUrl('/images/photo.jpg')).toMatch(/images\/photo\.jpg$/)
     expect(resolveUrl('https://example.com/test.png')).toBe('https://example.com/test.png')
     expect(resolveUrl('')).toBe('')
+  })
+
+  it('normalizes unpadded date strings without throwing errors', () => {
+    expect(parseDate('2026-11-3T12:00:00+08:00').getDate()).toBe(3)
+    expect(formatShortDate('2026-11-3T12:00:00+08:00')).toEqual({ month: '11月', day: '03日' })
+    expect(formatDate('2026-11-3T12:00:00+08:00')).toContain('2026年11月3日')
   })
 })
 
