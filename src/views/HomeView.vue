@@ -7,7 +7,7 @@ import resourcesData from '../content/resources.json'
 import affairsData from '../content/affairs.json'
 import albumsData from '../content/albums.json'
 import type { AboutContent, Album, ClassAffair, Resource, SiteContent } from '../types/content'
-import { getAffairStatus } from '../utils/content'
+import { getAffairStatus, parseDate } from '../utils/content'
 
 const site = siteData as SiteContent
 const about = aboutData as AboutContent
@@ -23,7 +23,12 @@ const recentResources = computed(() => {
     })
     .slice(0, 3)
 })
-const currentAffairs = computed(() => affairs.filter((item) => getAffairStatus(item) !== 'ended').slice(0, 2))
+const upcomingAffairs = computed(() => {
+  return affairs
+    .filter((item) => getAffairStatus(item) !== 'ended')
+    .sort((a, b) => parseDate(a.startAt).getTime() - parseDate(b.startAt).getTime())
+})
+const currentAffairs = computed(() => upcomingAffairs.value.slice(0, 2))
 const storyFlowRef = ref<HTMLElement | null>(null)
 const activeStoryIndex = ref(0)
 const isDesktopStory = ref(typeof window !== 'undefined' && window.matchMedia('(min-width: 1021px)').matches)
@@ -205,7 +210,7 @@ onBeforeUnmount(() => {
           <small>LEARN · SHARE · REMEMBER</small>
         </div>
         <div class="float-card float-a"><i>⌁</i><span>学习资料<strong>{{ resources.length }} 份</strong></span></div>
-        <div class="float-card float-b"><i>◫</i><span>近期事务<strong>{{ currentAffairs.length }} 项</strong></span></div>
+        <div class="float-card float-b"><i>◫</i><span>近期事务<strong>{{ upcomingAffairs.length }} 项</strong></span></div>
         <div class="float-card float-c"><i>✦</i><span>班级相册<strong>{{ albums.length }} 册</strong></span></div>
       </div>
     </section>
