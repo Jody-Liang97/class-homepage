@@ -1,5 +1,18 @@
 [
   {
+    "id": "ca-exam-papers",
+    "title": "复变函数：往年题汇总",
+    "category": "course",
+    "courseId": "complex-analysis",
+    "subject": "复变函数B",
+    "fileType": "PDF",
+    "downloadUrl": "/files/resources/complex-analysis/ca-exam-papers.pdf",
+    "source": "作者：宋谦",
+    "updatedAt": "2026-11-13",
+    "description": "复变函数往年真题。",
+    "tags": ["复变", "往年题"]
+  },
+  {
     "id": "dca-21-mid-exam-fix",
     "title": "模数：期中考试题目修复",
     "category": "course",
