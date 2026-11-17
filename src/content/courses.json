@@ -78,5 +78,21 @@
     "icon": "◫",
     "accent": "violet",
     "order": 10
+  },
+  {
+    "id": "system-programming-basics",
+    "name": "系统程序设计基础",
+    "description": "C 语言程序设计、内存管理、系统调用与程序运行机制课程资料。",
+    "icon": "⌘",
+    "accent": "mint",
+    "order": 11
+  },
+  {
+    "id": "modern-chinese-history",
+    "name": "中国近现代史纲要",
+    "description": "近现代史时间线、重要事件、代表著作与重要会议复习资料。",
+    "icon": "⌛",
+    "accent": "orange",
+    "order": 12
   }
 ]
